@@ -22,7 +22,7 @@ def load_data(apps, schema_editor):
                     longitude = obj.get('lon', 0)
                     latitude = obj.get('lat', 0)
                     location = fromstr(
-                        f'POINT({longitude} {latitude})', srid=4326
+                        f'POINT({longitude} {latitude})', srid=4326 #spatial reference identifier
                     )
                     Shop(name=name, location=location).save()
             except KeyError:
