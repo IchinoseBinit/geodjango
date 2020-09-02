@@ -9,6 +9,8 @@ db.sqlite3-journal
 media
 GDAL-3.1.2-cp37-cp37m-win_amd64.whl
 export.json
+venv
+venv/
 
 # If your build process includes running collectstatic, then you probably don't need or want to include staticfiles/
 # in your Git repository. Update and uncomment the following line accordingly.
